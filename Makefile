@@ -3,7 +3,7 @@ NAME		= codexion
 CC			= cc
 CFLAGS		= -Wall -Wextra -Werror -pthread
 
-OBJDIR		= coders/obj
+OBJDIR		= obj
 
 SRCS		= codexion.c \
 			  monitor.c \

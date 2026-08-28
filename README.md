@@ -124,7 +124,7 @@ make
 
 ## Resources
 
-- **AI Assistance**: Artificial intelligence (ChatGPT & Gemini) was utilized during development for bug fixing, optimizing concurrent state management, and deepening theoretical understanding of multithreading mechanics.
+- **AI Assistance**: Artificial intelligence (Claude & Gemini) was utilized during development for bug fixing, optimizing concurrent state management, and deepening theoretical understanding of multithreading mechanics.
 - **Online Testers**: Custom multithreading test suites and online evaluation tools were used to verify timestamp accuracy, deadlock freedom, and output formatting.
   - *https://codexion-visualizer.sacha-dev.me/*
 - **YouTube Tutorials & Concurrency Guides**: Educational videos covering POSIX threads, mutex locks, condition variables, and classic concurrency problems:

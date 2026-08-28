@@ -19,7 +19,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
 
-$(OBJDIR)/%.o: /%.c | $(OBJDIR)
+$(OBJDIR)/%.o: %.c | $(OBJDIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(OBJDIR):
